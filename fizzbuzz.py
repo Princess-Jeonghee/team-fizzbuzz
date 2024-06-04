@@ -1,6 +1,5 @@
-def fizz(): #민혁
-    # 3의 배수에서 fizz 를 출력하는 함수를 작성해주세요.
-    pass
+def fizz():
+    print('fizz')
 
 def buzz(): #정희
     # 5의 배수에서 fizz 를 출력하는 함수를 작성해주세요.
@@ -12,7 +11,7 @@ def fizzbuzz(): #주송
 
 def play():
     for i in range(1,16):
-        if :
+        if i % 3 == 0 and i % 5 != 0:
             fizz()
         elif :
             buzz()
