@@ -7,6 +7,7 @@ def buzz(): #정희
 
 def fizzbuzz(): #주송
     # 15의 배수에서 fizz 를 출력하는 함수를 작성해주세요.
+    print("fizzbuzz")
     pass
 
 def play():
@@ -15,7 +16,7 @@ def play():
             fizz()
         elif :
             buzz()
-        elif :
+        elif i % 3 == 0 and i % 5 == 0:
             fizzbuzz()
     return
 
